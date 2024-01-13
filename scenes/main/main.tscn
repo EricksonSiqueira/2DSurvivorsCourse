@@ -1,11 +1,18 @@
-[gd_scene load_steps=5 format=3 uid="uid://bsxlxlo54ik0d"]
+[gd_scene load_steps=7 format=3 uid="uid://bsxlxlo54ik0d"]
 
 [ext_resource type="PackedScene" uid="uid://d3fh6aid1yfwp" path="res://scenes/game_camera/game_camera.tscn" id="1_00esh"]
+[ext_resource type="PackedScene" uid="uid://c5aop5m7lqxv8" path="res://scenes/UI/arena_time_ui.tscn" id="1_7cu22"]
 [ext_resource type="PackedScene" uid="uid://dff6ckvso5rwc" path="res://scenes/manager/enemy_manager.tscn" id="1_mr0e6"]
 [ext_resource type="PackedScene" uid="uid://der2tnpnp5pna" path="res://scenes/player/player.tscn" id="1_urxhg"]
+[ext_resource type="PackedScene" uid="uid://c00iwxalxh188" path="res://scenes/manager/arena_time_manager.tscn" id="2_1afvu"]
 [ext_resource type="TileSet" uid="uid://dgurgy57nj7gi" path="res://resources/tileset.tres" id="2_aghua"]
 
 [node name="Main" type="Node"]
+
+[node name="ArenaTimeUI" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("1_7cu22")]
+arena_time_manager = NodePath("../ArenaTimeManager")
+
+[node name="ArenaTimeManager" parent="." instance=ExtResource("2_1afvu")]
 
 [node name="EnemyManager" parent="." instance=ExtResource("1_mr0e6")]
 
