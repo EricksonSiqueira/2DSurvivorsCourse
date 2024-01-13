@@ -2,3 +2,7 @@ res://assets/player/player.tscn
 res://scenes/player/player.tscn
 res://scenes/player/player.gd
 res://main/main.tscn
+res://scenes/main/main.tscn
+res://resources/tileset.tres
+res://scenes/game_camera/game_camera.tscn
+res://scenes/game_camera/game_camera.gd
