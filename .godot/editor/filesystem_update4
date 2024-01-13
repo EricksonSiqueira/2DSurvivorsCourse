@@ -15,3 +15,6 @@ res://scenes/UI/arena_time_ui.tscn
 res://scenes/manager/arena_time_manager.tscn
 res://scenes/manager/arena_time_manager.gd
 res://scenes/UI/arena_time_ui.gd
+res://scenes/game_object/experience_dot/experience_dot.tscn
+res://scenes/game_object/player/player.tscn
+res://scenes/game_object/experience_dot/experience_dot.gd
