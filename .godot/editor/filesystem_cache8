@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705108818
+::res://::1705149347
 icon.svg::CompressedTexture2D::8631688461337439562::1705101336::1705101345::1::::<><>::
 ::res://assets/::1705107952
 ::res://assets/environment/::1705106308
@@ -7,10 +7,13 @@ tilemap_packed.png::CompressedTexture2D::7688461400233079214::1705106231::170510
 ::res://resources/::1705107941
 tileset.tres::TileSet::7622726880005385068::1705106768::0::1::::<><>::uid://dhsl3omyhi2as::::res://assets/environment/tilemap_packed.png
 ::res://scenes/::1705108757
-::res://scenes/ability/::1705108765
-::res://scenes/ability/sword_ability/::1705108818
+::res://scenes/ability/::1705109101
+::res://scenes/ability/sword_ability/::1705108888
 sword.png::CompressedTexture2D::3039164873350024723::1705101921::1705108818::1::::<><>::
-sword_ability.tscn::PackedScene::2247998551058115751::1705108767::0::1::::<><>::
+sword_ability.tscn::PackedScene::2247998551058115751::1705108888::0::1::::<><>::uid://bjkgupi4j0lsl::::res://scenes/ability/sword_ability/sword.png
+::res://scenes/ability/sword_ability_controller/::1705110109
+sword_ability_controller.gd::GDScript::-1::1705109902::0::1::::<>Node<>::
+sword_ability_controller.tscn::PackedScene::3647468703736590364::1705110109::0::1::::<><>::res://scenes/ability/sword_ability_controller/sword_ability_controller.gd<>uid://7a7hcdn7rltn::::res://scenes/ability/sword_ability/sword_ability.tscn
 ::res://scenes/basic_enemy/::1705108550
 basic_enemy.gd::GDScript::-1::1705108546::0::1::::<>CharacterBody2D<>::
 basic_enemy.png::CompressedTexture2D::8780017296954171533::1705107930::1705107952::1::::<><>::
@@ -18,9 +21,9 @@ basic_enemy.tscn::PackedScene::8913442422430729505::1705108550::0::1::::<><>::re
 ::res://scenes/game_camera/::1705107653
 game_camera.gd::GDScript::-1::1705107653::0::1::::<>Camera2D<>::
 game_camera.tscn::PackedScene::9135351952805361999::1705107352::0::1::::<><>::res://scenes/game_camera/game_camera.gd
-::res://scenes/main/::1705108549
-main.tscn::PackedScene::3698010118487559245::1705108549::0::1::::<><>::uid://d3fh6aid1yfwp::::res://scenes/game_camera/game_camera.tscn<>uid://der2tnpnp5pna::::res://scenes/player/player.tscn<>uid://dgurgy57nj7gi::::res://resources/tileset.tres<>uid://dy80dhfmp15mr::::res://scenes/basic_enemy/basic_enemy.tscn
-::res://scenes/player/::1705108550
+::res://scenes/main/::1705110109
+main.tscn::PackedScene::3698010118487559245::1705110109::0::1::::<><>::uid://d3fh6aid1yfwp::::res://scenes/game_camera/game_camera.tscn<>uid://der2tnpnp5pna::::res://scenes/player/player.tscn<>uid://dgurgy57nj7gi::::res://resources/tileset.tres<>uid://dy80dhfmp15mr::::res://scenes/basic_enemy/basic_enemy.tscn
+::res://scenes/player/::1705110109
 player.gd::GDScript::-1::1705108548::0::1::::<>CharacterBody2D<>::
 player.png::CompressedTexture2D::3908897954325833077::1705102046::1705102475::1::::<><>::
-player.tscn::PackedScene::7476785842926857014::1705108550::0::1::::<><>::res://scenes/player/player.gd<>uid://bvxq8i2ub0dy8::::res://scenes/player/player.png
+player.tscn::PackedScene::7476785842926857014::1705110109::0::1::::<><>::res://scenes/player/player.gd<>uid://bvxq8i2ub0dy8::::res://scenes/player/player.png<>uid://br74jn2nu0lw3::::res://scenes/ability/sword_ability_controller/sword_ability_controller.tscn
