@@ -1,3 +1,9 @@
+MarginContainer
+Button
+Label
+VBoxContainer
+PanelContainer
+CanvasLayer
 ProgressBar
 HealthComponent
 Timer
@@ -5,11 +11,4 @@ CollisionShape2D
 Area2D
 Node
 Node2D
-CanvasLayer
 CanvasGroup
-Label
-VBoxContainer
-PanelContainer
-HBoxContainer
-MarginContainer
-ResourcePreloader
