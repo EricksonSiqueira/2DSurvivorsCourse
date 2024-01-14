@@ -1,7 +1,8 @@
 res://scenes/ui
+res://scenes/manager
+res://resources/upgrades
 res://scenes/component
 res://scenes/autoload
-res://scenes/manager
 res://scenes/game_object/experience_dot
 res://scenes/UI
 res://scenes/ability/sword_ability_controller
