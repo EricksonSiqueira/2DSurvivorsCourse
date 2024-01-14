@@ -1,3 +1,4 @@
+ProgressBar
 HealthComponent
 Timer
 CollisionShape2D
@@ -12,4 +13,3 @@ PanelContainer
 HBoxContainer
 MarginContainer
 ResourcePreloader
-ProgressBar

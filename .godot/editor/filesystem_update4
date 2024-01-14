@@ -17,3 +17,4 @@ res://scenes/component/experience_drop_component.gd
 res://scenes/component/experience_drop_component.tscn
 res://scenes/game_object/player/player.gd
 res://scenes/game_object/basic_enemy/basic_enemy.tscn
+res://scenes/component/health_component.gd
