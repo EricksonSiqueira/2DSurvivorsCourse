@@ -20,6 +20,7 @@ func on_died():
 	
 	var experience_instance = experience_scene.instantiate() as Node2D
 	
-	owner.get_parent().add_child(experience_instance)
+	var entities_layer = get_tree().get_first_node_in_group("entities_layer")
+	entities_layer.add_child(experience_instance)
 	experience_instance.global_position = spawn_position
 	

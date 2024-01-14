@@ -12,3 +12,6 @@ res://scenes/ability/sword_ability_controller/sword_ability_controller.tscn
 res://scenes/autoload/game_events.tscn
 res://scenes/autoload/game_events.gd
 res://scenes/ability/sword_ability_controller/sword_ability_controller.gd
+res://scenes/manager/enemy_manager.gd
+res://scenes/component/experience_drop_component.gd
+res://scenes/component/experience_drop_component.tscn
