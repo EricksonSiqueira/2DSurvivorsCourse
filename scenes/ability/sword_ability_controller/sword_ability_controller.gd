@@ -3,6 +3,7 @@ extends Node
 const MAX_RANGE = 150
 
 @export var sword_ability: PackedScene
+var damage = 5
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -29,8 +30,10 @@ func on_timer_timeout():
 		return a_distance < b_distance
 	)
 	
-	var sword_instance = sword_ability.instantiate() as Node2D
+	var sword_instance = sword_ability.instantiate() as SwordAbility
 	player.get_parent().add_child(sword_instance)
+	sword_instance.hit_box_component.damage = damage
+	
 	#Coloca a espada para nascer em cima do inimigo
 	sword_instance.global_position = enemies[0].global_position
 	#Adiciona 4px de distancia entre o inimigo e a espada aleatoriamente num raio de 360graus
