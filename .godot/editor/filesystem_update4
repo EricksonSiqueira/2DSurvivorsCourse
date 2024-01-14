@@ -8,3 +8,7 @@ res://scenes/manager/upgrade_manager.gd
 res://scenes/manager/upgrade_manager.tscn
 res://scenes/manager/experience_manager.gd
 res://scenes/game_object/player/player.tscn
+res://scenes/ability/sword_ability_controller/sword_ability_controller.tscn
+res://scenes/autoload/game_events.tscn
+res://scenes/autoload/game_events.gd
+res://scenes/ability/sword_ability_controller/sword_ability_controller.gd
