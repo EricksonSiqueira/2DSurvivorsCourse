@@ -1,3 +1,8 @@
+HealthComponent
+Timer
+CollisionShape2D
+Area2D
+Node
 Node2D
 CanvasLayer
 CanvasGroup
@@ -6,9 +11,5 @@ VBoxContainer
 PanelContainer
 HBoxContainer
 MarginContainer
-Node
 ResourcePreloader
 ProgressBar
-Control
-CollisionShape2D
-Area2D

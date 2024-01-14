@@ -15,3 +15,5 @@ res://scenes/ability/sword_ability_controller/sword_ability_controller.gd
 res://scenes/manager/enemy_manager.gd
 res://scenes/component/experience_drop_component.gd
 res://scenes/component/experience_drop_component.tscn
+res://scenes/game_object/player/player.gd
+res://scenes/game_object/basic_enemy/basic_enemy.tscn
