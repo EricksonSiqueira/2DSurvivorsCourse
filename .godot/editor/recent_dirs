@@ -1,3 +1,5 @@
+res://scenes/ability
+res://scenes/ability/axe_ability_controller
 res://scenes/ui
 res://scenes/manager
 res://resources/upgrades

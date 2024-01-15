@@ -1,3 +1,10 @@
+AnimationPlayer
+CollisionShape2D
+HitBoxComponent
+Sprite2D
+Node2D
+Timer
+Node
 MarginContainer
 Button
 Label
@@ -6,9 +13,3 @@ PanelContainer
 CanvasLayer
 ProgressBar
 HealthComponent
-Timer
-CollisionShape2D
-Area2D
-Node
-Node2D
-CanvasGroup

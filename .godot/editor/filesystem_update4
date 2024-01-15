@@ -4,3 +4,8 @@ res://scenes/manager/arena_time_manager.gd
 res://scenes/manager/arena_time_manager.tscn
 res://scenes/manager/enemy_manager.tscn
 res://scenes/manager/enemy_manager.gd
+res://scenes/ability/axe_ability/axe_ability.tscn
+res://scenes/ability/axe_ability_controller/axe_ability_controller.tscn
+res://scenes/ability/axe_ability_controller/axe_ability_controller.gd
+res://scenes/game_object/player/player.tscn
+res://scenes/ability/axe_ability/axe_ability.gd
