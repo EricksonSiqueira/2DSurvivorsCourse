@@ -1,8 +1,8 @@
+Node2D
 AnimationPlayer
 CollisionShape2D
 HitBoxComponent
 Sprite2D
-Node2D
 Timer
 Node
 MarginContainer
@@ -12,4 +12,3 @@ VBoxContainer
 PanelContainer
 CanvasLayer
 ProgressBar
-HealthComponent
