@@ -24,7 +24,7 @@ func get_spawn_position():
 	var spawn_position = Vector2.ZERO
 	var random_direction = Vector2.RIGHT.rotated(randf_range(0, TAU))
 	
-	for i in 4:
+	for i in number_of_rotation:
 		spawn_position = player.global_position + (random_direction * SPAWN_RADIUS)
 
 		var physics_ray_query_parameters = PhysicsRayQueryParameters2D.create(

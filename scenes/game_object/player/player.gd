@@ -9,6 +9,7 @@ const ACCELERATION_SMOOTHING = 25
 @onready var health_component: HealthComponent = $HealthComponent
 @onready var collision_area: Area2D = $CollisionArea2D
 @onready var progress_bar: ProgressBar = $HealthBar
+@onready var abilities: Node = $Abilities
 
 var number_colliding_bodies = 0
 
@@ -18,6 +19,7 @@ func _ready():
 	collision_area.body_exited.connect(on_body_exited)
 	damage_interval_timer.timeout.connect(on_damage_interval_timer_timout)
 	health_component.health_changed.connect(on_health_changed)
+	GameEvents.ability_upgrades_added.connect(on_ability_upgrade_added)
 	update_health_display()
 
 
@@ -49,6 +51,16 @@ func check_deal_damage():
 
 func update_health_display():
 	progress_bar.value = health_component.get_health_percente()
+	
+
+
+func on_ability_upgrade_added(upgrade: AbilityUpgrade, current_upgrades: Dictionary):
+	if not upgrade is Ability:
+		return
+	
+	var ability = upgrade as Ability
+	abilities.add_child(ability.ability_controller_scene.instantiate())
+
 
 func on_body_entered(other_body: Node2D):
 	number_colliding_bodies += 1
