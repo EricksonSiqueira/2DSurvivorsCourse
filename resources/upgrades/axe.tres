@@ -8,4 +8,5 @@ resource_name = "Axe"
 script = ExtResource("2_j7yd8")
 ability_controller_scene = ExtResource("1_cqy02")
 id = "axe"
+max_quantity = 1
 description = "Periodically sends out a spinning axe."

@@ -14,3 +14,5 @@ res://resources/upgrades/axe.tres
 res://scenes/manager/upgrade_manager.gd
 res://resources/upgrades/abillity.gd
 res://scenes/game_object/player/player.gd
+res://resources/upgrades/ability_upgrade.gd
+res://resources/upgrades/sword_rate.tres
