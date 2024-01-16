@@ -41,10 +41,8 @@ func _process(delta):
 	animation_player.play("RESET")
 	
 	var move_sign = sign(movement_vector.x)
-	if (Input.is_action_just_pressed("move_left")):
-		visuals.scale = Vector2(-1, 1)
-	if (Input.is_action_just_pressed("move_right")):
-		visuals.scale = Vector2.ONE
+	if (move_sign != 0):
+		visuals.scale = Vector2(move_sign, 1)
 
 
 func get_movement_vector():
